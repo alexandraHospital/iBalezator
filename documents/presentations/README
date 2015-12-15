@@ -1,0 +1,10 @@
+##############################
+########### README ###########
+##############################
+
+
+Pour obtenir toutes les présentations,, tapez make.
+Pour ne garder que les .pdf, tapez make puis make proper.
+Pour tout effacer, tapez make clean.
+
+

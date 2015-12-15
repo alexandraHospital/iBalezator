@@ -1,0 +1,18 @@
+Projet iBalezator
+
+Ce projet contient le code source du projet iBalezator
+
+Installation AudioKit
+=====================
+Pour pouvoir installer la bibliothèque AudioKit, il faut suivre le tutoriel du site officiel.
+Ce tutoriel est consultable à l'adresse suivante : https://vimeo.com/125887234
+La version de la bibliothèque que nous avons utilisé est récupérable comme suit :
+	git clone git@github.com:audiokit/AudioKit.git
+
+Étapes :
+	, cloner la bibliotheque
+	, importer le projet xcode du clone dans le projet iBalezator
+	, aller dans "Build Phases" -> "Target Dependencies" -> "+" -> "AudioKit static library" 
+	, aller dans "Build Phases" -> "Link binary with libraries" -> "+" -> "AudioKit static library" 
+
+A priori, si la target est la même que pour l'iphone 5, le binaire dans "Link binary with libraries" devrait être suffisant.  

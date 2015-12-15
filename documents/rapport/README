@@ -1,0 +1,22 @@
+##############################
+########### README ###########
+##############################
+
+Se mettre dans le répertoire contenant le fichier .tex.
+
+Pour obtenir le rapport, tapez :
+> make
+
+Si la compilation n'a pas bien fonctionné, tapez :
+> pdflatex Rapport.tex
+
+Pour ne garder que le .pdf, tapez :
+> make 
+> make proper
+
+
+Pour tout effacer, tapez :
+> make clean.
+
+Après avoir compilé le pdf principal et tous les comptes rendus (cf : README des comptes rendus), si vous voulez y joindre les comptes rendus, tapez :
+> pdfunite Rapport.pdf ../CRR/*.pdf rapport_complet                                           

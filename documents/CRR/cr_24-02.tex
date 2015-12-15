@@ -1,0 +1,44 @@
+\documentclass{scrartcl}
+\usepackage[margin=0.7in]{geometry} %réduire marges
+
+\setkomafont{disposition}{\normalfont\bfseries}
+
+%french
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[babel=true]{csquotes}
+\usepackage[french]{babel} %en Français
+
+\begin{document}
+\pagenumbering{gobble}%pas num page
+
+\title{Compte rendu de la réunion du 24/02/15}
+\subtitle{\textit{Prochaine réunion le 3 mars, 16h}\vspace{-5ex}}
+\date{}
+\maketitle
+
+\textit{La présentation a été faite par Adrien.}
+
+\section{Modèle MVC}
+\begin{itemize}
+ \item Compréhension du modèle MVC en Swift
+ \item Lien possible entre le Model et la View
+ \item Controller global qui \enquote{contrôle tout}
+\end{itemize}
+
+
+\section{Cahier des charges}
+\begin{itemize}
+ \item Ajouter des scenarios types
+ \item Ajouter des maquettes
+ \item Mentionner la temporisation du son, la durée de validation ou du refus de la note
+\end{itemize}
+
+\section{Pistes pour iBalezator}
+\begin{itemize}
+ \item Utiliser le MIDI pour la numérotation des notes
+ \item OpenAL
+ \item Wave guide, boucle de retard
+\end{itemize}
+\end{document}

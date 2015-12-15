@@ -1,0 +1,66 @@
+\documentclass{scrartcl}
+\usepackage[margin=0.7in]{geometry} %réduire marges
+
+\setkomafont{disposition}{\normalfont\bfseries}
+
+%french
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[babel=true]{csquotes}
+\usepackage[french]{babel} %en Français
+
+\begin{document}
+\pagenumbering{gobble}%pas num page
+
+\title{Compte rendu de réunion du 26/03/15}
+\subtitle{Prochaine réunion : jeudi 2 avril, 18h.\vspace{-5ex}}
+\date{}
+\maketitle
+
+\textit{La présentation a été faite par Alexandra.}
+
+\section{Conseils pour la présentation}
+\begin{itemize}
+	\item Commencer la présentation par la version IOS du Balézator
+	\item Ne pas oublier de définir le terme "mode de jeu"
+	\item Les slides de présentation ne devraient pas excéder 2 minutes
+	\item Les slides ne doivent pas être trop chargées en texte
+	\item Tâcher de faire une présentiation énergique, qui respecte le temps imparti
+	\item Penser à :
+		\begin{itemize}
+			\item une conclusion, 
+			\item une slide de fin qui résume les questions soulevées,
+			\item une slide qui résume ce qui a pu être fait par rapport aux objectifs,
+			\item rappeler où l'on en est, où l'on va.
+		\end{itemize}
+\end{itemize}
+
+\section{Remarques sur l'existant}
+\begin{itemize}
+	\item Les maquettes ont été approuvées par Thomas
+	\item Penser aux init de convenience pour attacher un contrôleur à une vue
+	\item La barre d'info doit :
+		\begin{itemize}
+			\item Être de taille fixe (non-proportionnelle à la taille de l'écran donc)
+			\item Réspecter les dimensions décrites dans les lignes de conduites graphiques dictées par Apple
+		\end{itemize}
+\end{itemize}
+
+\section{Spécifications Techniques de Réalisation (STR)}
+Les STR doivent :
+\begin{itemize}
+	\item Donner l'architecture fonctionnelle de l'appli
+	\item Décrire l'utilité de chaque classe
+	\item Montrer l'intéraction entre classes
+	\item Préciser où sont stockées les données
+	\item Présenter l'algorithme des traitements complexes
+\end{itemize}
+
+\section{Planning prévisionnel des réunions à venir}
+\begin{itemize}
+	\item Jeudi 16 avril
+	\item Jeudi 30 avril (18h00)
+	\item Mardi 12 mai (11h30) Avis final donné par Thomas sur l'application livrée. 
+\end{itemize}
+\end{document}

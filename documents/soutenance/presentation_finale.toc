@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Pr\IeC {\'e}sentation du projet}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Balezator en ligne}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{iBalezator}{4}{0}{1}
+\beamer@sectionintoc {2}{Le produit}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Mode manche/clavier}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Mode port\IeC {\'e}e/manche}{10}{0}{2}
+\beamer@sectionintoc {3}{Interface graphique}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Afficher un manche}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{Afficher une port\IeC {\'e}e}{19}{0}{3}
+\beamer@sectionintoc {4}{G\IeC {\'e}n\IeC {\'e}ration de son}{20}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{22}{0}{5}

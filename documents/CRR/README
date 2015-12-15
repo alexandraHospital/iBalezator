@@ -1,0 +1,9 @@
+##############################
+########### README ###########
+##############################
+
+
+Pour obtenir tous les CRR, tapez make.
+Pour ne garder que les .pdf, tapez make puis make proper.
+Pour tout effacer, tapez make clean.
+

@@ -1,0 +1,10 @@
+##############################
+########### README ###########
+##############################
+
+
+Pour obtenir les STR, tapez make.
+Pour ne garder que le .pdf, tapez make puis make proper.
+Pour tout effacer, tapez make clean.
+
+

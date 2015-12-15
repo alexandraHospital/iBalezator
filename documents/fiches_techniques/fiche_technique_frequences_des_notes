@@ -1,0 +1,96 @@
+\documentclass{scrartcl}
+\usepackage[margin=0.7in]{geometry} %réduire marges
+\usepackage{hyperref}
+
+\setkomafont{disposition}{\normalfont\bfseries}
+
+%french
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\begin{document}
+\pagenumbering{gobble}%pas num page
+
+\author{Alexandra Hospital}
+\date{\today}
+
+\title{Fiche technique :}
+\subtitle{Calculer la fréquence des notes et la distance entre deux frettes}\vspace{-5ex}
+\date{}
+\maketitle
+
+Pour éviter de devoir entrer les données en dur dans le code, nous avons cherché le lien qui relie les notes de la gammes.
+Notre but est d'avoir le plus de données calculées de façon dynamique dans l'application. Ainsi, l'application sera plus facilement exportable sur différentes tailles d'écran.
+
+\section{Fréquence des notes}
+
+
+Dans la gamme tempérée, la formule permettant de mesurer la fréquence d'une note par rapport à une note de départ est :
+
+\[f_{n} = f_{0} \times 2^{\frac{n}{12}}\]
+
+Avec : \newline
+$n$ le nombre de demi-tons au-dessus de la note de départ \newline
+$f_{0}$ la note de départ
+\smallbreak
+\textit{(source : \url{http://fr.wikipedia.org/wiki/Note_de_musique})}
+\bigbreak
+
+Cela signifie que nous pouvons obtenir la fréquence de toutes les notes à partir d’une seule. L’application peut reconnaître la note que l’utilisateur a entré juste en connaissant la position de son clic.
+En effet, nous connaissons déjà les notes des cordes dites « à vide » de la guitare : Mi (grave), La, Ré, Sol, Si, Mi (aigu). Les frettes sont disposées de demi-ton en demi-ton.
+
+Donc si l’utilisateur tape sur la 3ème case de la corde de Mi grave :
+\newline
+$ f_{3} = f_{0} \times 2^{\frac{3}{12}} $ \newline
+$ f_{3} = 82,41 \times 1,189 $ \newline
+$ f_{3} = 98,0025 $
+\newline Ce qui correspond bien à un Sol 
+\textit{(source : \url{http://www.ziggysono.com/pop/convert7.php})}\newline
+
+Nous avons donc besoin de plusieurs informations :
+\begin{itemize}
+    \item Les coordonnées en ordonnées des cordes (en fait d’une seule puisqu’elles sont positionnées de façon égale, il nous faut juste la distance entre deux cordes)
+    \item Les coordonnées en abscisses des frettes
+\end{itemize}
+
+
+\section{Coordonnées des frettes sur le manche}
+
+Pour obtenir les coordonnées des frettes, nous avons également la relation suivante : 
+
+\[ L_{n} = \frac{L}{2^{\frac{n}{12}}}\]
+
+Avec :\newline
+$L$ la longueur de la corde\newline
+$L_{n}$ la longueur utile de la corde (la longueur qu'il nous faut pour faire sonner la corde, la nouvelle distance de la frette au chevalet)\newline
+$n$ le rang du demi-ton
+
+La distance entre sillet de tête et frette est alors :
+\[L-L_{n} = L(1-\frac{1}{2^{\frac{n}{12}}})\]
+
+\textit{(source : \url{http://www.jpbourgeois.org/guitar/})}\newline
+
+Nous pouvons donc calculer la distance de chaque frette par rapport au sillet et la stocker dans un tableau. Ainsi, au clic de l’utilisateur, il faudra :
+\begin{itemize}
+    \item regarder à quelle ordonnée il a tapé : nous obtenons la corde
+    \item regarder à quelle abscisse il a tapé : nous obtenons la frette
+    \item avec les deux informations précédentes, nous calculons la note touchée de façon dynamique (en admettant que nous définirons un périmètre de « touche », car le doigt de l’utilisateur est bien plus gros qu’un seul pixel…)
+\end{itemize}
+
+
+\section{Application et conclusion}
+
+La longueur des cordes sur la guitare de l’application étant tronquée, je l’ai recalculée de la façon suivante :\newline
+J'ai pris une véritable longueur de corde de guitare (classique), c'est-à-dire 65.2 cm \newline\textit{(source : \url{http://www.chimix.com/an12/bac12/bac1.html})}\newline
+Avec les formules précédentes, on obtient que la première case est à 3.6 cm du sillet.
+
+Notre programme nous donne actuellement la position (en pixels), abscisse et ordonnée, du clic sur l'élément de type Scrollview contenant le manche de la guitare. 
+La première frette est à 120 pixels.
+En faisant un simple produit en croix, on obtient que nos cordes doivent faire 2173 pixels de longueur.
+
+J’obtiens les bons résultats en entrant comme longueur 65.2, mais lorsque je rentre la longueur 2173, seule la première valeur est correcte.
+On en conclut qu'on ne peut pas se fier au manche de la guitare que nous avons en image, il faudra probablement retoucher cette image pour avoir une image à l'échelle.
+
+
+\end{document}

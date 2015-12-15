@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3EB3F9EE-8756-48FB-9EFF-8940371F39D3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iBalezator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>468e09df-dd3a-4756-91b4-4719aae0c02d++8311</key>
+		<string>https://srcdev.lip6.fr/svn/fko/iBalezator</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>2015/code_source/iBalezator/iBalezator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>468e09df-dd3a-4756-91b4-4719aae0c02d++8311</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>468e09df-dd3a-4756-91b4-4719aae0c02d++8311</key>
+		<string>https://srcdev.lip6.fr/svn/fko</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://srcdev.lip6.fr/svn/fko/iBalezator/2015/code_source/iBalezator/iBalezator.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>468e09df-dd3a-4756-91b4-4719aae0c02d++8311</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>468e09df-dd3a-4756-91b4-4719aae0c02d++8311</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iBalezator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

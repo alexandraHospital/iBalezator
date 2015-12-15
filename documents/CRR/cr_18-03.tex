@@ -1,0 +1,76 @@
+\documentclass{scrartcl}
+\usepackage[margin=0.7in]{geometry} %réduire marges
+
+\setkomafont{disposition}{\normalfont\bfseries}
+
+%french
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[babel=true]{csquotes}
+\usepackage[french]{babel} %en Français
+\usepackage{tikz}
+
+\begin{document}
+\pagenumbering{gobble}%pas num page
+
+\title{Compte rendu de réunion du 18/03/15}
+\subtitle{Prochaine réunion : 26 mars, 18h.\vspace{-5ex}}
+\date{}
+\maketitle
+
+
+\textit{La présentation a été faite par Adrien.}
+
+\section{Conseils pour la présentation}
+\begin{itemize}
+	\item  Bien réexpliquer le contexte du Balezator, notamment les différents modes de jeu
+	\item  Le diagramme de classes doit contenir les liens entre les objets, les méthodes seront à spécifier plus tard
+\end{itemize}
+
+\section{Architecture de l'application proposée par M. Kordon}
+\begin{tikzpicture}
+\node[draw] (M) at (0,0) {Model};
+\node[draw] (CP) at (4,0) {Main Controller};
+
+\draw[->,>=latex] (M) |- (CP);
+
+
+\node[draw] (VCN) at (9,1) {ViewControllerNeck};
+\node[draw] (VCS) at (9,0) {ViewControllerStaff};
+\node[draw] (VCK) at (9,-1) {ViewControllerKeyboard};
+
+\draw[->, >=latex] (CP) |- (VCN);
+\draw[->, >=latex] (CP) |- (VCS);
+\draw[->, >=latex] (CP) |- (VCK);
+
+
+\node[draw] (VN) at (14, 1) {ViewNeck};
+\node[draw] (VS) at (14, 0) {ViewStaff};
+\node[draw] (VK) at (14, -1) {VKeyboard};
+
+\draw[->, >=latex] (VCN) |- (VN);
+\draw[->, >=latex] (VCS) |- (VS);
+\draw[->, >=latex] (VCK) |- (VK);
+
+
+\draw[->,>=latex, dashed] (M) to[bend left=25] (VN);
+\draw[->,>=latex, dashed] (M) to[bend left=30] (VS);
+\draw [->,>=latex, dashed] (M) to[bend right=37] (VK);
+
+
+\end{tikzpicture}
+
+
+\noindent Les vues ont accès au modèle en lecture seulement (flèches en pointillés). \newline
+Un modèle \enquote{principal} peut être utilisé par exemple pour la portée (staff) et le manche (neck) car ce modèle aura besoin des données de ces deux classes pour comparer si la note entrée sur le manche correspond bien à celle tirée aléatoirement sur la portée.
+
+\section{À produire}
+\begin{itemize}
+	\item  Améliorer le mouvement de la frette la plus proche 
+	\item  Maquettes à spécifier dans le cahier des charges pour la validation du client
+	\item  Implémenter les maquettes du client avec des idées d'amélioration si besoin
+	\item  Implémenter une façon de changer de mode de jeu (pas nécessairement définitive)
+	\item  Interface graphique de l'application : les éléments ne doivent pas être \enquote{collés} au bord de l'écran
+\end{itemize}
+\end{document}

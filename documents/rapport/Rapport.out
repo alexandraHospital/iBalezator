@@ -1,0 +1,34 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Sujet}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Probl\351matique}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{Pr\351sentation du produit}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Fonctionnalit\351s}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.1.1}{Mode manche/clavier}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.2}{Mode port\351e/manche}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.3}{Score et aide}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Manuel d'utilisation}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Mode manche/clavier}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Mode port\351e/manche}{section.2.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Recettes : bilan des tests de validation}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{Mode manche/clavier}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{Mode port\351e/manche}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.3}{Changement de mode}{section.2.3}% 15
+\BOOKMARK [0][-]{chapter.3}{R\351alisation et impl\351mentation}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Particularit\351 du solf\350ge}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Mise en relation d'une note sur le manche avec une note sur la port\351e}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{Mise en relation de coordonn\351es d'image de manche avec une Note}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Son}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.5}{Temporisation}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.6}{Architecture finale}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.7}{Adaptation de l'application aux diff\351rentes tailles d'\351cran des terminaux}{chapter.3}% 23
+\BOOKMARK [0][-]{chapter.4}{Organisation}{}% 24
+\BOOKMARK [1][-]{section.4.1}{\311quipe de d\351veloppement, environnement de d\351veloppement}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{Organisation dans le temps}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.3}{Documents produits}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 28
+\BOOKMARK [1][-]{section.5.1}{L'application iBalezator}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Am\351liorations possibles de l'application}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Annexe}{}% 31
+\BOOKMARK [1][-]{section.6.1}{Lecture de notes sur le manche}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.2}{Lecture de notes sur la port\351e}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.3}{Comptes rendus des r\351unions}{chapter.6}% 34

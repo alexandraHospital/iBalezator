@@ -1,0 +1,35 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Sujet}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Probl\IeC {\'e}matique}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Pr\IeC {\'e}sentation du produit}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Fonctionnalit\IeC {\'e}s}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Mode manche/clavier}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Mode port\IeC {\'e}e/manche}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Score et aide}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Manuel d'utilisation}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Mode manche/clavier}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Mode port\IeC {\'e}e/manche}{7}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Recettes : bilan des tests de validation}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Mode manche/clavier}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Mode port\IeC {\'e}e/manche}{8}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Changement de mode}{8}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {3}R\IeC {\'e}alisation et impl\IeC {\'e}mentation}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Particularit\IeC {\'e} du solf\IeC {\`e}ge}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Mise en relation d'une note sur le manche avec une note sur la port\IeC {\'e}e}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Mise en relation de coordonn\IeC {\'e}es d'image de manche avec une Note}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Son}{11}{section.3.4}
+\contentsline {section}{\numberline {3.5}Temporisation}{11}{section.3.5}
+\contentsline {section}{\numberline {3.6}Architecture finale}{11}{section.3.6}
+\contentsline {section}{\numberline {3.7}Adaptation de l'application aux diff\IeC {\'e}rentes tailles d'\IeC {\'e}cran des terminaux}{12}{section.3.7}
+\contentsline {chapter}{\numberline {4}Organisation}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}\IeC {\'E}quipe de d\IeC {\'e}veloppement, environnement de d\IeC {\'e}veloppement}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Organisation dans le temps}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}Documents produits}{14}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}L'application iBalezator}{15}{section.5.1}
+\contentsline {section}{\numberline {5.2}Am\IeC {\'e}liorations possibles de l'application}{15}{section.5.2}
+\contentsline {chapter}{\numberline {6}Annexe}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}Lecture de notes sur le manche}{17}{section.6.1}
+\contentsline {section}{\numberline {6.2}Lecture de notes sur la port\IeC {\'e}e}{17}{section.6.2}
+\contentsline {section}{\numberline {6.3}Comptes rendus des r\IeC {\'e}unions}{18}{section.6.3}

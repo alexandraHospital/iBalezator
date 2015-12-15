@@ -1,0 +1,44 @@
+\documentclass{scrartcl}
+\usepackage[margin=0.7in]{geometry} %réduire marges
+
+\setkomafont{disposition}{\normalfont\bfseries}
+
+%french
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[babel=true]{csquotes}
+\usepackage[french]{babel} %en Français
+
+\begin{document}
+\pagenumbering{gobble}%pas num page
+
+\title{Compte rendu de réunion du 16/14/15}
+\subtitle{Prochaine réunion : jeudi 30 avril, 18h.\vspace{-5ex}}
+\date{}
+\maketitle
+
+\textit{La présentation a été faite par Alexandra.}
+
+\section{Consignes pour la soutenance}
+\begin{itemize}
+	\item Expliquer le projet/sujet de zéro
+	\item Présenter ce qui a été fait, démo,  les problèmes rencontrés, conclure
+	\item Parler des évolutions possibles
+	\item Nous nous adresserons à des informaticiens mais éviter les détails trop techniques
+\end{itemize}
+
+\section{Conseils pour l'implémentation}
+\begin{itemize}
+	\item Utiliser les NSTimer pour la temporisation
+	\item Quand le timer est armé, il faut ignorer les intéractions de l'utilisateur
+	\item Penser à faire la vue d'aide
+	\item Il est possible de placer une vue par rapport à son centre
+	\item Enlever toutes les constantes non-déclarées (\og Magic Numbers \fg{})
+	\item Une vue peut être rafraîchie grâce à \texttt{setNeedDisplay()}
+	\item En mode Portée/Manche, un problème se produit quand on sélectionne la 6\up{ème} corde, 1\up{ère} frette
+	\item Mettre en place l'icône de l'application
+	\item Réfléchir à la persistance des données
+\end{itemize}
+
+\end{document}

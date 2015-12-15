@@ -1,0 +1,10 @@
+##############################
+########### README ###########
+##############################
+
+
+Pour obtenir le cahier des charges, tapez make.
+Si la compilation n'a pas bien fonctionné, tapez pdflatex cahier_des_charges.tex.
+Pour ne garder que le .pdf, tapez make puis make proper.
+Pour tout effacer, tapez make clean.
+

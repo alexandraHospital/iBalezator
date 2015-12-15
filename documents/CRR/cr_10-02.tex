@@ -1,0 +1,70 @@
+\documentclass{scrartcl}
+\usepackage[margin=0.7in]{geometry} %réduire marges
+
+\setkomafont{disposition}{\normalfont\bfseries}
+
+%french
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\begin{document}
+\pagenumbering{gobble}%pas num page
+
+\title{Compte rendu de la réunion du 10/02/15}
+\subtitle{\textit{Prochaine réunion 18 février, 17h15}\vspace{-5ex}}
+\date{}
+\maketitle
+
+La présentation a été faite par Adrien.
+Nous avons obtenu un terminal Apple pour les tests.
+
+\section{Bibliothèque de son présentée}
+\begin{itemize}
+  \item http://www.cocoawithlove.com/2010/10/ios-tone-generator-introduction-to.html
+
+  \item Ne correspond pas exactement à l'attente du client, car le son généré par l'application est monotone, et il faudrait un son de guitare
+
+  \item Peut être utilisée dans un premier temps pour tester l'interface graphique de l'application avant de trouver une meilleure bibliothèque
+
+\end{itemize}
+
+
+\section{Problèmes}
+\begin{itemize}
+  \item Impossible de créer un repository sur les machines de la fac à cause du proxy : demander à la PPTI
+\end{itemize}
+
+\section{Conseils pour la présentation}
+\begin{itemize}
+  \item Faire des rappelles du contexte : rappel du sujet de projet, résumé des réunions précédentes
+  \item Numérotation des slides
+\end{itemize}
+
+
+\section{Interface graphique de l'application}
+\begin{itemize}
+
+  \item Le manche de guitare se « slide » de gauche à droite car seul un nombre limité de frettes sont visibles à l'écran (le nombre de frettes dépendra donc de la taille de l'écran). Pour atteindre des notes plus aigus, l'utilisateur doit « slider » le manche (utilisation possible d'une scrollview)
+  
+  \item La barre de menu n'est pas une priorité. En revanche, la barre de score est importante car elle a une certaine proportion de vert (pour les bonnes réponses) et de rouge (pour les mauvaises réponses) indiquant le score de l'utilisateur.
+
+  \item Deux possibilités de jeu :
+	\begin{itemize}
+		\item Une portée et un manche sur lequel on place les notes qu'on lit sur la portée
+		\item Un manche et un clavier sur lequel on choisit les notes qu'on lit sur le manche
+	\end{itemize}
+  \item Pour plus de clarté :
+    \begin{itemize}
+    \item Signaler à l'utilisateur que la note qu'il lit sur la portée se situe à une octave au dessus ou en dessous 
+    \item Indiquer le numéro de la frette sur les cases du manche de guitare qui ont des indicateurs
+	\end{itemize}
+\end{itemize}
+
+\section{Objectifs pour la prochaine réunion}
+\begin{itemize}
+  \item Avoir un exemple à montrer 
+  \item Commencer la rédaction du cahier des charges
+\end{itemize}
+
+\end{document}

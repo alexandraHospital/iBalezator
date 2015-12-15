@@ -1,0 +1,51 @@
+\documentclass{scrartcl}
+\usepackage[margin=0.7in]{geometry} %réduire marges
+
+\setkomafont{disposition}{\normalfont\bfseries}
+
+%french
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\begin{document}
+\pagenumbering{gobble}%pas num page
+
+\title{Compte rendu de la réunion du 18/02/15}
+\subtitle{\textit{Prochaine réunion 24 mars, 16h}\vspace{-5ex}}
+\date{}
+\maketitle
+
+La présentation a été faite par Alexandra.
+
+\section{Points abordés}
+\begin{itemize}
+\item Les notes sur la portée doivent correspondre à l'affichage courant du manche
+\item Possibilté de déplacer le manche par crans (par frette)
+\item Abandon du calcul de la position des frettes, on utilise l'image du client
+\item Il est demandé de fournir un codage des notes au format MIDI
+\item Utiliser le MIDI, standard dans le milieu musical, authorisera une évolution possible de l'application
+\item Utilisation également de la norme MIDI pour faire correspondre le nom, la fréquence, et l'identifiant de d'une note : http://newt.phys.unsw.edu.au/jw/graphics/notes.GIF
+\item Le but n'est pas de coller précisement à la version HTML/JavaScript.
+\item Commiter les codes-source déjà codés
+\end{itemize}
+
+
+\section{Cahier des charges}
+\begin{itemize}
+\item Une architecture réfléchie doit être présentée dans le cahier des charges.
+\item Ne pas hésiter à détailler le découpage des vues.
+\item Utiliser le design pattern MVC
+\item Contient des maquettes de principe pour pouvoir de se mettre d'accord sur le livrable
+\end{itemize}
+
+\section{Objectifs pour la prochaine réunion}
+\begin{itemize}
+\item Premier jet du cahier des charges
+\item Présentation d'un schéma d'architecture de code (UML)
+\item Maquette du deuxième mode de jeu : Manche-Clavier
+\item Conversion tap vers note vers fréquence vers son
+\item Parler de la division des tâches
+\end{itemize}
+
+\end{document}
